@@ -110,12 +110,11 @@ select{
 .main-center{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-width: 50%;
+  
 
 }
 .main-left{
-    height: 700px;
-    width: 437px;
+  width: 100%;
     position: relative;
     color: #ffffff;
     background-size: cover
@@ -133,8 +132,8 @@ select{
   
 .main-right{
     background-color: #74767e;
-    width: 437px;
-    height: 333px;
+    width: 100%;
+
 }
 
 .form-a{
