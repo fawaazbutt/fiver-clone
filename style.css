@@ -2,6 +2,13 @@
   margin: 0px;
   box-sizing: border-box;
 }
+a {
+  color: #000000;
+}
+button{
+  text-decoration: none;
+  border: none;
+}
 .navbar {
   height: 80px;
   display: flex;
@@ -105,45 +112,91 @@ select {
 }
 
 /* nav end page start */
-.main-center{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  
-
+.main-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  border: 2px black solid;
+  max-width: 1000px;
+  min-width: 300px;
 }
 .main-left {
   width: 100%;
-    position: relative;
-    color: #ffffff;
-    background-size: cover
-       
-  }
-  .left-bg{
-    width: 100%;
-    
-  }
-  .left-content{ 
-      position: absolute ;
-      top: 100px ;
-      left: 60px;
-  }
   
-.main-right{
-    background-color: #74767e;
-    width: 100%;
+  position: relative;
+  color: #ffffff;
+
 
 }
-
-.form-a {
-  color: #000000;
+.left-bg {
+  width: 100%;
 }
-.google {
-  height: 50px;
-  width: 250px;
-  background-color: transparent;
-  border: 1px black solid;
-  border-radius: 2%;
+.left-content {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.main-right {
+  background-color: #f0f0f0;
+  width: 100%;
+  position: relative;
+}
+.right-content{
+  
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  margin-top: 18%;
+  margin-left: 15%;
+  gap: 15px;
+}
+.right-btn{ 
+
+  height: 30px;
+  margin: 10%;
+  margin-right: 10%;
+  border: 0.5px black solid;
+ border-radius: 5px; 
+ position: relative;
+ display: flex;
+ justify-content: center;
+}
+.right-btn:hover{
+  background-color: #22232525;
+}
+.right-icon{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 22px;
+  border-top: 1px solid #545454;
+  margin-top: 20px;
+}
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.links-list {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  font-size: 20px;
+}
+.links-list a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.links-list a:hover {
+  text-decoration: underline;
 }
