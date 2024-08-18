@@ -142,25 +142,18 @@ select {
   background-color: #faf9f9;
   width: 100%;
   position: relative;
-  text-align: center; 
- 
-  align-items: center;
-  
 }
 .right-content {
-  margin-top: 100px; 
-
-  align-items: center;
+  margin-top: 100px;
 }
 .right-btn {
   width: 70%;
   margin: auto;
-  height: 42px;
   font-size: 2opx;
   border: 0.5px black solid;
   border-radius: 5px;
   position: relative;
-  padding: 10px;
+  padding: 20px 0px 20px 0px;
 }
 .right-btn:hover {
   background-color: #22232525;
@@ -168,8 +161,7 @@ select {
 .right-icon {
   position: absolute;
   left: 5px;
-  top: 15px;
-  
+  padding-top: 5px;
 }
 
 .footer {
