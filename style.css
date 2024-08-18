@@ -8,6 +8,7 @@ a {
 button {
   text-decoration: none;
   border: none;
+  background-color: transparent;
 }
 .navbar {
   height: 80px;
@@ -138,30 +139,37 @@ select {
 }
 
 .main-right {
-  background-color: #f0f0f0;
+  background-color: #faf9f9;
   width: 100%;
   position: relative;
-  text-align: center;
+  text-align: center; 
+ 
+  align-items: center;
+  
 }
 .right-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 15px;
+  margin-top: 100px; 
+
+  align-items: center;
 }
 .right-btn {
-  width: 100%;
+  width: 70%;
+  margin: auto;
+  height: 42px;
+  font-size: 2opx;
   border: 0.5px black solid;
   border-radius: 5px;
   position: relative;
-  display: flex;
-  justify-content: center;
+  padding: 10px;
 }
 .right-btn:hover {
   background-color: #22232525;
 }
 .right-icon {
   position: absolute;
+  left: 5px;
+  top: 15px;
+  
 }
 
 .footer {
